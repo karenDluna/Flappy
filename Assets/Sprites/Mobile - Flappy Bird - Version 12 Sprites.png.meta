@@ -47,6 +47,9 @@ TextureImporter:
   - first:
       213: 2037097137259322841
     second: TapTap
+  - first:
+      213: 1399865248621217857
+    second: Titulo
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -378,13 +381,13 @@ TextureImporter:
       name: play
       rect:
         serializedVersion: 2
-        x: 353
-        y: 366
-        width: 53
-        height: 30
+        x: 354
+        y: 364
+        width: 52
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -454,6 +457,27 @@ TextureImporter:
       bones: []
       spriteID: 9dd9e47ad09354c10800000000000000
       internalID: 2037097137259322841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 398
+        width: 89
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1484b7dd6025d6310800000000000000
+      internalID: 1399865248621217857
       vertices: []
       indices: 
       edges: []

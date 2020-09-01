@@ -7,7 +7,7 @@ public class FlyFlappy : MonoBehaviour
     // Start is called before the first frame update
     //controles del pajaro
     //saltar
-
+    public GameManager gameManager;
     [SerializeField] public float velocity = 1;
     private Rigidbody2D _rigidbody2D;
     void Start()
@@ -23,5 +23,9 @@ public class FlyFlappy : MonoBehaviour
             //salto
             _rigidbody2D.velocity = Vector2.up * velocity;
         }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        gameManager.GameOver();
     }
 }
