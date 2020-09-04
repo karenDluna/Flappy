@@ -10,10 +10,9 @@ public class PipeSpawn : MonoBehaviour
     public GameObject Pipe;
 
     [SerializeField]public float height ;
-    //[SerializeField]public double TopHeight = 3;
-    //[SerializeField]public double BottomHeight = 3;
+    
 
-    // This will create the spawning of the pipes
+    // para que salgan mas tuberias 
     void Start()
     {
         GameObject newpipe = Instantiate(Pipe);
