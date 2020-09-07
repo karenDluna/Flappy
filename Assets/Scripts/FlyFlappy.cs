@@ -11,9 +11,13 @@ public class FlyFlappy : MonoBehaviour
     public GameManager gameManager;
     [SerializeField] public float velocity = 1;
     private Rigidbody2D _rigidbody2D;
+
+    //audio
+    private AudioSource fondo;
     void Start()
     {
          _rigidbody2D = GetComponent<Rigidbody2D>();
+         fondo = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -28,6 +32,7 @@ public class FlyFlappy : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         gameManager.GameOver();
+        fondo.Stop();
         
         
     }
